@@ -12,6 +12,9 @@ module.exports = {
         blanco:'#FFF9EC',
         negro: '#484538',
       },
+      fontFamily: {
+        playFair: ['var(--title-font)'],
+      },
     },
   },
   plugins: [],

@@ -1,42 +1,43 @@
-'use client'
+'use client';
 
-import { useRef, useEffect } from "react";
+import gsap from 'gsap';
+import { useEffect, useRef } from 'react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { gsap } from "gsap";
-
 
 const HeroLetters = () => {
+  
+  gsap.registerPlugin(ScrollTrigger);
+  const component = useRef(null);
 
-    gsap.registerPlugin(ScrollTrigger);
-    const component = useRef(null);
+  useEffect(() => {
+    let ctx = gsap.context(() => {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          scrub: 5,
+          pin: true,
+          trigger: "#text-wrap",
+          endTrigger: "body",
+          start: "top top",
+          end: "70% top",
+          //events: onEnter(scrollS P Start) onLeave(ScrollE P End) onEnterBack(ScrollE B End) onLeaveBack(ScrollS B Start)
+          toggleActions:"play reverse reverse restart"
+          //options: play, pause, resume, reset, restart, complete, reverse, none   
+        }
+      })
 
-    useEffect(() => {
-        let ctx = gsap.context(() => {
-            const tl = gsap.timeline({
-                scrollTrigger: {
-                  trigger: '#text-wraper',
-                  pin:true,
-                  markers:true,
-                  start:'top top',
-                  end:'bottom 10%',
-                  scrub:3,
-                  //events: onEnter(scrollS P Start) onLeave(ScrollE P End) onEnterBack(ScrollE B End) onLeaveBack(ScrollS B Start)
-                  toggleActions:"play pause reverse restart"
-                  //options: play, pause, resume, reset, restart, complete, reverse, none          
-                },
-              });
+      tl.to("#text-wrap", {opacity:0,})
 
-              tl.fromTo('#text-wraper h1',{x:192, }, {x:-500, })
-        }, component)
+    }, component)
 
-        return () => ctx.revert();
-      }, []);
+    return () => ctx.revert()
+  },[])
+
 
   return (
-    <div ref={component} className="w-full ml-96 pl-24 justify-start border border-yellow-500">
-        <div id="text-wraper" className="flex flex-col justify-start items-start w-full border border-blue-500">
-            <h1 className="text-rojo overflow-y-hidden text-nowrap text-[180px] border border-red-500">MAKEUP IN CANCUN</h1>
-        </div>
+    <div ref={component} className='flex mt-14 sm:mt-2 z-0'>
+      <div id='text-wrap' className="flex w-full">
+          <h1 className="overflow-y-hidden text-rojo leading-none sm:leading-normal sm:text-nowrap font-playFair text-[100px] sm:text-[175px]">MAKEUP IN CANCUN</h1>
+      </div>
     </div>
   )
 }
