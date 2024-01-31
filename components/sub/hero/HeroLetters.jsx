@@ -18,7 +18,7 @@ const HeroLetters = () => {
           trigger: "#text-wrap",
           endTrigger: "body",
           start: "top top",
-          end: "70% top",
+          end: "70% 95%",
           //events: onEnter(scrollS P Start) onLeave(ScrollE P End) onEnterBack(ScrollE B End) onLeaveBack(ScrollS B Start)
           toggleActions:"play reverse reverse restart"
           //options: play, pause, resume, reset, restart, complete, reverse, none   
