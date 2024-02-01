@@ -28,7 +28,7 @@ const PinPicture = () => {
     <>
       <div ref={component} className="flex z-20">
         <div id="ad" className="flex relative items-center justify-center w-[390px] h-[197px] sm:w-[740px] sm:h-[550px] rounded-lg">
-          <div id="mask" className="w-[350px] h-[167px] sm:w-[700px] sm:h-[517px] overflow-hidden">
+          <div id="mask" className="w-[350px] h-[307px] sm:w-[700px] sm:h-[517px] overflow-hidden">
             <Image
               className="overflow-hidden"
               src="/mfmain.png"

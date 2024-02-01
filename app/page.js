@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <main className="h-full w-full">
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-5 overflow-x-hidden">
         <Hero />
         <Break />
         <Horizontal />

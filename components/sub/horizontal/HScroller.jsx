@@ -34,7 +34,6 @@ const HScroller = () => {
 
   return (
     <>
-      <div className="h-[50vh]" />
 
       <div id="races-wrapper" className='flex w-full border border-yellow-500'>
         <div id='races' className="flex w-full border border-blue-500">

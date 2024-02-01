@@ -30,32 +30,30 @@ const Break = () => {
 
 
   return (
-    <>
-        <section ref={component} className='w-full h-full flex flex-col items-center my-36 font-playFair text-rojo z-20'>
-            <div id='item-1'>
-                <Image 
-                src='/MClogo500.svg'
-                width={260}
-                height={260}
-                alt='Makeup In Cancun Logo'
+    <section ref={component} className='w-full flex flex-col items-center my-36 font-playFair text-rojo z-20'>
+        <div id='item-1' className='w-[130px] sm:w-[260px]'>
+            <Image 
+            src='/MClogo500.svg'
+            width={260}
+            height={260}
+            alt='Makeup In Cancun Logo'
+            />
+        </div>
+        <div id='item-2' className='flex justify-center items-center text-6xl sm:text-9xl gap-5'>
+            <p>THE</p>
+            <div className='w-[130px] sm:w-full h-full sm:pt-2'>
+                <Image
+                src='/ojos.webp'
+                width={225}
+                height={120}
+                alt='Eyes makeup'
                 />
             </div>
-            <div id='item-2' className='flex justify-center items-center text-9xl gap-5'>
-                <p>THE</p>
-                <div className='w-full h-full pt-2'>
-                    <Image
-                    src='/ojos.webp'
-                    width={225}
-                    height={120}
-                    alt='Eyes makeup'
-                    />
-                </div>
-            </div>
-            <div id='item-3' className='text-9xl'>
-                <p>APPLAUSE</p>
-            </div>
-        </section>        
-    </>
+        </div>
+        <div id='item-3' className='text-6xl sm:text-9xl'>
+            <p>APPLAUSE</p>
+        </div>
+    </section>        
   )
 }
 

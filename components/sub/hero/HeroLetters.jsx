@@ -34,9 +34,9 @@ const HeroLetters = () => {
 
 
   return (
-    <div ref={component} className='flex mt-14 sm:mt-2 z-0'>
+    <div ref={component} className='flex mt-14 sm:mt-2'>
       <div id='text-wrap' className="flex w-full">
-          <h1 className="overflow-y-hidden text-rojo leading-none sm:leading-normal sm:text-nowrap font-playFair text-[100px] sm:text-[175px]">MAKEUP IN CANCUN</h1>
+          <h1 className="text-rojo leading-none sm:leading-normal sm:text-nowrap font-playFair text-[100px] sm:text-[175px]">MAKEUP IN CANCUN</h1>
       </div>
     </div>
   )
