@@ -1,3 +1,4 @@
+import Break from "@/components/main/Break";
 import Hero from "@/components/main/Hero";
 import Horizontal from "@/components/main/Horizontal";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="h-full w-full">
       <div className="flex flex-col">
         <Hero />
+        <Break />
         <Horizontal />
       </div>
     </main>

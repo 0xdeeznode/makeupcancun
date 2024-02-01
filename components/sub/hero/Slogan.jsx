@@ -44,7 +44,7 @@ const Slogan = () => {
                   </video>
                 </div>
                 <div id='col3' className='flex w-[670px] h-auto items-center'>
-                    <h2 className='font-playFair text-4xl text-rojo text-center p-4'>{landing.first}</h2>
+                    <h2 className='font-playFair text-2xl font-bold sm:text-4xl text-rojo text-center p-6 bg-blanco/70 rounded-2xl'>{landing.first}</h2>
                 </div>
                 <div id="col2" className="w-[450px] overflow-hidden">
                   <video
