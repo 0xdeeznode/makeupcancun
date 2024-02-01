@@ -34,8 +34,7 @@ const HScroller = () => {
 
   return (
     <>
-
-      <div id="races-wrapper" className='flex w-full border border-yellow-500'>
+      <div id="races-wrapper" className='flex w-full'>
         <div id='races' className="flex w-full border border-blue-500">
           <div>
             <About />
@@ -60,6 +59,14 @@ const About = () => {
           <h1 className='text-5xl text-white p-4'>About</h1>
         </div>
         
+        <div>
+          <Image 
+          src='/mfmAbout.png'
+          alt='Makeup artist Mafer Montealegre picture'
+          width={363}
+          height={487}
+          />
+        </div>
         <div>
           <Image 
           src='/mfmAbout.png'
