@@ -34,27 +34,27 @@ const Slogan = () => {
         <div ref={component} className="flex w-full mt-24 z-20">
             <div id="columns" className="flex relative items-center justify-between w-full overflow-hidden">
                 <div id="col1" className="w-[450px] overflow-hidden">
-                    <Image
-                    className="overflow-hidden"
-                    src="/col1.png"
-                    width={450}
-                    height={675}
-                    alt='bridals picture'
-                    id="bus"
-                    />
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className="h-full w-full object-cover"
+                  >
+                    <source src="/bwcol1.mp4" type="video/mp4" />
+                  </video>
                 </div>
                 <div id='col3' className='flex w-[670px] h-auto items-center'>
                     <h2 className='font-playFair text-4xl text-rojo text-center p-4'>{landing.first}</h2>
                 </div>
                 <div id="col2" className="w-[450px] overflow-hidden">
-                    <Image
-                    className="overflow-hidden"
-                    src="/col2.png"
-                    width={450}
-                    height={675}
-                    alt='bridals picture'
-                    id="bus"
-                    />
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className="h-full w-full object-cover"
+                  >
+                    <source src="/bwcol2.mp4" type="video/mp4" />
+                  </video>
                 </div>
             </div>
         </div>

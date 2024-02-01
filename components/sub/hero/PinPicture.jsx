@@ -27,13 +27,13 @@ const PinPicture = () => {
   return (
     <>
       <div ref={component} className="flex z-20">
-        <div id="ad" className="flex relative items-center justify-center w-[400px] h-[217px] sm:w-[750px] sm:h-[560px] bg-rose-400">
+        <div id="ad" className="flex relative items-center justify-center w-[390px] h-[197px] sm:w-[740px] sm:h-[550px] rounded-lg">
           <div id="mask" className="w-[350px] h-[167px] sm:w-[700px] sm:h-[517px] overflow-hidden">
             <Image
               className="overflow-hidden"
-              src="/bridals.JPG"
-              width={900}
-              height={600}
+              src="/mfmain.png"
+              width={758}
+              height={666}
               alt='bridals picture'
               id="bus"
             />
