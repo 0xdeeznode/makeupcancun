@@ -6,7 +6,7 @@ export const landing = {
 
 export const AboutText = {
     firts: {
-        main: 'Maria Fernanda Montealegre, with over 15 years of experience in the exciting makeup industry, is a talented artist originally from Colombia and currently based in Mexico.',
+        main: 'With over 15 years of experience in the exciting makeup industry, is a talented artist originally from Colombia and currently based in Mexico.',
 
     },
     second: {

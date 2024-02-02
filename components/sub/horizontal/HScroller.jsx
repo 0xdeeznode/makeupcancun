@@ -87,7 +87,7 @@ const About = () => {
     <div>
       <div className='grid grid-cols-3 grid-rows-3 sm:gap-x-4 h-screen'>
         <div className='col-span-3 sm:col-span-2 row-span-1 pl-6 pt-10 sm:pt-6 flex flex-col sm:flex-row gap-6 text-blanco font-playFair'>
-          <h1 className='text-4xl sm:text-5xl'>About</h1>
+          <h1 className='text-4xl sm:text-5xl'>About Maria Fernanda Montealegre</h1>
           <p className='text-xl sm:text-3xl'>{AboutText.firts.main}</p>
         </div>
         <div className='col-span-3 row-span-3 p-4 sm:p-0 sm:col-span-1 sm:row-span-3'>
