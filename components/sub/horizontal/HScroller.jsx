@@ -70,7 +70,7 @@ const About3 = () => {
     <>
       <div className='grid grid-cols-3 grid-rows-3 gap-y-0 sm:gap-y-14 h-screen m-0 py-5 w-[100vw] bg-rojo'>
 
-        <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 flex justify-center items-end h-full'>
+        <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 hidden sm:flex justify-center items-end h-full'>
           <div className='w-[400px] h-[500px]'>
             <Image
               src='/bride2.png'
@@ -81,13 +81,13 @@ const About3 = () => {
           </div>
         </div>
 
-        <div className='col-span-3 row-span-2 sm:col-span-1 sm:row-span-3 flex flex-col gap-5 pt-14 h-full sm:h-fit text-blanco font-playFair'>
+        <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 flex flex-col gap-6 px-2 sm:px-0 sm:pt-14 h-full sm:h-fit text-blanco font-playFair'>
           <p className='text-xl sm:text-2xl'>{AboutText.third.main}</p>
           <p className='text-xl sm:text-2xl'>{AboutText.third.sub}</p>
         </div>
 
-        <div className='flex col-span-1 row-span-3 justify-center'>
-          <div className='w-[400px] h-[500px]'>
+        <div className='flex col-span-3 row-span-2 sm:col-span-1 sm:row-span-3 justify-end items-end sm:justify-center'>
+          <div className='w-[320px] h-[400px] sm:w-[400px] sm:h-[500px]'>
             <Image
               src='/bride.jpg'
               width={400}
