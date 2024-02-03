@@ -36,8 +36,8 @@ const HScroller = () => {
 
       tl.to('#races', {
         x: getScrollAmount,
-        duration: 3,
-        ease: "none",
+        duration: 5,
+        ease: "power1.inOut",
       })
 
     }, componentH)
@@ -69,30 +69,34 @@ const About3 = () => {
   return (
     <>
       <div className='grid grid-cols-3 grid-rows-3 gap-y-0 sm:gap-y-14 h-screen m-0 py-5 w-[100vw] bg-rojo'>
-        <div className='col-span-3 row-span-2 sm:col-span-2 sm:row-span-1 flex items-end h-full sm:h-fit gap-5 text-blanco pl-5 font-playFair'>
-          <p className='text-xl sm:text-2xl'>{AboutText.second.main}</p>
-          <p className='text-xl'>{AboutText.second.sub}</p>
-        </div>
-        <div className='hidden sm:flex col-span-1 row-span-3'>
-          <div className='w-[470px] h-[562px]'>
+
+        <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 flex justify-center items-end h-full'>
+          <div className='w-[400px] h-[500px]'>
             <Image
-              src='/about2d2.jpg'
-              width={640}
-              height={800}
-              alt='Fashion week ny model makeup'
+              src='/bride2.png'
+              width={400}
+              height={500}
+              alt='Wedding on the beach Mexico'
             />
           </div>
         </div>
-        <div className='col-span-3 row-span-1 sm:col-span-2 sm:row-span-2 flex justify-center items-end h-full'>
-          <div className='w-[642px] h-[321px]'>
+
+        <div className='col-span-3 row-span-2 sm:col-span-1 sm:row-span-3 flex flex-col gap-5 pt-14 h-full sm:h-fit text-blanco font-playFair'>
+          <p className='text-xl sm:text-2xl'>{AboutText.third.main}</p>
+          <p className='text-xl sm:text-2xl'>{AboutText.third.sub}</p>
+        </div>
+
+        <div className='flex col-span-1 row-span-3 justify-center'>
+          <div className='w-[400px] h-[500px]'>
             <Image
-              src='/about2d3.jpg'
-              width={640}
-              height={319}
-              alt='Fashion week ny model makeup'
+              src='/bride.jpg'
+              width={400}
+              height={500}
+              alt='Bridal Makeup Mexico'
             />
           </div>
         </div>
+
       </div>
     </>
   )
@@ -102,14 +106,14 @@ const About2 = () => {
 
   return (
     <>
-      <div className='grid grid-cols-3 grid-rows-4 h-screen m-0 py-5 w-[100vw] bg-rojo border-2'>
+      <div className='grid grid-cols-3 grid-rows-4 h-screen m-0 py-5 w-[100vw]'>
 
-        <div className='col-span-3 row-span-2 sm:col-span-2 sm:row-span-2 flex h-full sm:h-fit gap-5 text-blanco px-4 font-playFair border border-green-700'>
+        <div className='col-span-3 row-span-2 sm:col-span-2 sm:row-span-2 flex h-full sm:h-fit gap-5 text-blanco px-4 font-playFair'>
           <p className='text-xl sm:text-2xl'>{AboutText.second.main}</p>
           <p className='text-lg sm:text-2xl'>{AboutText.second.sub}</p>
         </div>
 
-        <div className='hidden sm:flex col-span-1 row-span-4 h-full border border-blue-700'>
+        <div className='hidden sm:flex col-span-1 row-span-4 h-full'>
           <div className='w-[470px] h-[562px]'>
             <Image
               src='/about2d2.jpg'
@@ -120,7 +124,7 @@ const About2 = () => {
           </div>
         </div>
         
-        <div className='col-span-3 row-span-2 sm:col-span-2 sm:row-span-2 flex justify-center h-full pt-5 sm:pt-0 border border-blue-700'>
+        <div className='col-span-3 row-span-2 sm:col-span-2 sm:row-span-2 flex justify-center h-full pt-5 sm:pt-0'>
           <div className='sm:w-[545px] h-[321px] my-auto'>
             <Image
               src='/about2d3.jpg'

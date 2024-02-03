@@ -13,4 +13,8 @@ export const AboutText = {
         main: 'Aware of the pivotal role of staying on the cutting edge, Maria Fernanda Montealegre has immersed herself in transformative updates alongside top-tier makeup artists, not only in the vibrant beauty scene of Mexico but also in the glamour capital of Los Angeles.',
         sub: "From making a statement at Colombia Moda 2000 to leaving an indelible mark at the prestigious Fashion Week New York 2023 and the captivating Fashion Show Mexico/Benito Santos 2023, Maria Fernanda is more than a makeup artist.",
     },
+    third: {
+        main: 'In the Riviera Maya, she specializes in creating timeless looks for brides, adding a unique touch to each one. She is also an expert in trendy social and editorial makeup.',
+        sub: "Immerse yourself in the artistry of Maria Fernanda Montealegre, where each makeup session is not just a service but a personalized experience. Whether you're walking down the aisle or preparing for a glamorous social event, Maria's skillful hands will ensure that every moment is not just witnessed but remembered.",
+    },
 }
