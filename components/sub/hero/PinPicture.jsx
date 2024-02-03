@@ -27,7 +27,7 @@ const PinPicture = () => {
   return (
     <>
       <div ref={component} className="flex z-20">
-        <div id="ad" className="flex relative justify-center w-screen border border-black">
+        <div id="ad" className="flex relative justify-center w-screen">
           <div id="mask" className="w-[307px] h-[307px] sm:w-[400px] sm:h-[517px] overflow-hidden">
             <Image
               className="overflow-hidden"
