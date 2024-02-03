@@ -4,7 +4,7 @@ import Slogan from "../sub/hero/Slogan"
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-center items-center h-full w-full px-2 sm:px-0">
+    <section className="flex flex-col h-full w-full px-2 sm:px-0">
       <HeroLetters />
       <PinPicture />
       <Slogan />

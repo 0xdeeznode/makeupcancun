@@ -1,6 +1,7 @@
 import { inter, titleFont } from '@/styles/font'
 import "./globals.css";
 import Navbar from "@/components/main/Navbar";
+import Footer from '@/components/main/Footer';
 
 
 export const metadata = {
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} ${titleFont.variable} bg-blanco`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
