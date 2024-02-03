@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`fixed items-center w-full bg-blanco top-0 z-50 ${!DesNavBar && 'hidden'}`}>
+      <nav className={`fixed items-center w-full bg-transparent top-0 z-50 ${!DesNavBar && 'hidden'}`}>
         {/* Desktop Nav */}
         <div className="w-full flex items-center justify-between py-4 px-4">
           <Link className="hidden sm:flex" href='/'>
@@ -53,7 +53,7 @@ const Navbar = () => {
             <div>
                 <Image
                 src='/MClogoSimple500.svg'
-                width={45}
+                width={55}
                 height={18}
                 alt="Fernanda Makeup logo"
                 />
