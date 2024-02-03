@@ -47,8 +47,7 @@ const HScroller = () => {
 
   return (
     <>
-      <div className="h-[50vh]" />
-
+      <div className="h-[10vh]" />
       <div ref={componentH}>
         <div id="races-wrapper">
           <div id='races' className="flex w-fit flex-nowrap">
@@ -58,8 +57,6 @@ const HScroller = () => {
           </div>
         </div>
       </div>
-      
-      <div className="h-[100vh]" />
     </>
   )
 }

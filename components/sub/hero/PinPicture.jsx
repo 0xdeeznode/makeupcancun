@@ -15,7 +15,7 @@ const PinPicture = () => {
         scrollTrigger: {
           scrub: 1,
           pin: true,
-          trigger: component.current,
+          trigger: "#ad",
         },
       });
       tl.from('#bus', {scale:2.2})

@@ -13,19 +13,15 @@ const HeroLetters = () => {
     let ctx = gsap.context(() => {
       const tl = gsap.timeline({
         scrollTrigger: {
-          scrub: 5,
+          scrub: 3,
           pin: true,
           trigger: "#text-wrap",
-          endTrigger: "body",
-          start: "top top",
-          end: "70% 95%",
-          //events: onEnter(scrollS P Start) onLeave(ScrollE P End) onEnterBack(ScrollE B End) onLeaveBack(ScrollS B Start)
-          toggleActions:"play reverse reverse restart"
-          //options: play, pause, resume, reset, restart, complete, reverse, none   
+          start: "top 5%",
+          end: "550% top", 
         }
       })
 
-      tl.to("#text-wrap", {opacity:0,})
+      tl.to("#text-wrap", {opacity:0})
 
     }, component)
 
@@ -36,7 +32,7 @@ const HeroLetters = () => {
   return (
     <div ref={component} className='flex mt-16 sm:mt-2'>
       <div id='text-wrap' className="flex justify-center w-full">
-          <h1 className="text-rojo leading-none sm:leading-normal sm:text-nowrap font-playFair text-[100px] sm:text-[143px]">MAKEUP IN CANCUN</h1>
+          <h1 className="text-rojo leading-none sm:leading-normal sm:text-nowrap font-playFair text-[100px] sm:text-[140px]">MAKEUP IN CANCUN</h1>
       </div>
     </div>
   )
