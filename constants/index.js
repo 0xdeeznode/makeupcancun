@@ -1,9 +1,9 @@
+// SLOGAN
 export const landing = {
     first: 'Crafted by our elite team, a culmination of decades in the art of bridal beauty. Our flawless makeup and hairstyles transform you into a vision of elegance, seamlessly becoming a cherished part of your unforgettable moments.',
 };
 
 // HSCROLLER COMP
-
 export const AboutText = {
     firts: {
         main: 'With over 15 years of experience in the exciting makeup industry, is a talented artist originally from Colombia and currently based in Mexico.',
@@ -17,4 +17,29 @@ export const AboutText = {
         main: 'In the Riviera Maya, she specializes in creating timeless looks for brides, adding a unique touch to each one. She is also an expert in trendy social and editorial makeup.',
         sub: "Immerse yourself in the artistry of Maria Fernanda Montealegre, where each makeup session is not just a service but a personalized experience. Whether you're walking down the aisle or preparing for a glamorous social event, Maria's skillful hands will ensure that every moment is not just witnessed but remembered.",
     },
+}
+
+// FOOTER
+
+  // FOOTER SECTION
+  export const FOOTER_LINKS = [
+    {
+      title: 'Our Community',
+      links: ['Great Stories', 'How to Plan a Wedding'],
+      ref: ['https://www.huffpost.com/entry/the-most-touching-wedding-stories-of-the-year_b_8824302','https://www.brides.com/gallery/how-to-plan-your-own-wedding']
+    },
+  ];
+  
+  export const FOOTER_CONTACT_INFO = {
+    title: 'Contact Us',
+    links: [
+      { label: '○', value: '+52 9983-687-601'},
+      { label: '○', value: 'info@makeupcancun.com' },
+    ],
+  };
+  
+export const SOCIALS = {
+  title: 'Socials',
+  links: ['/facebook.svg', '/instagram.svg', '/tiktok.svg'],
+  ref: ['https://www.huffpost.com/entry/the-most-touching-wedding-stories-of-the-year_b_8824302','https://www.instagram.com/makeupincancun/', 'https://www.tiktok.com/@makeupincancunfm']
 }
