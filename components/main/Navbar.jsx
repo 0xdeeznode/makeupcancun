@@ -59,7 +59,7 @@ const Navbar = () => {
                 />
             </div>
           </Link>
-          <Link className='hidden sm:flex' href='#contact'>
+          <Link className='hidden sm:flex' href='/contact'>
               <div className="text-rojo font-bold">BOOK CONSULTATION +</div>
           </Link>
           <div onClick={handleNav} className="sm:hidden text-rojo cursor-pointer z-20">

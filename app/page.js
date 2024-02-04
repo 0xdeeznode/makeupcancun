@@ -1,6 +1,7 @@
 import Break from "@/components/main/Break";
 import Hero from "@/components/main/Hero";
 import Horizontal from "@/components/main/Horizontal";
+import Team from "@/components/main/Team";
 
 export default function Home() {
 
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <Break />
         <Horizontal />
+        <Team />
       </div>
     </main>
   );

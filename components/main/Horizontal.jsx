@@ -3,7 +3,7 @@ import HScroller from '../sub/horizontal/HScroller'
 
 const Horizontal = () => {
   return (
-    <section className='bg-rojo'>
+    <section id='about' className='bg-rojo'>
       <Portada />
       <HScroller />
     </section>
