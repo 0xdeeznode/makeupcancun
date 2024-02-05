@@ -131,9 +131,8 @@ const About = () => {
             <li className='text-6xl sm:text-7xl'>Montealegre</li>
           </ul>
         </div>
-        
 
-        <div className='col-span-3 row-span-2  flex flex-col gap-16 items-center border sm:col-span-1 sm:row-span-3 sm:gap-5'>
+        <div className='col-span-3 row-span-2  flex flex-col gap-16 items-center sm:col-span-1 sm:row-span-3 sm:gap-5'>
           <p className='text-xl sm:text-3xl text-center text-blanco font-playFair'>{AboutText.firts.main}</p>
           <div className='w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] mx-auto border-2 overflow-hidden'>
             <Image className='hover:scale-105 ease-in-out duration-500' src='/mfmAbout.jpg' alt='Makeup artist Mafer Montealegre picture two' width={400} height={400} />
