@@ -66,7 +66,7 @@ const About3 = () => {
 
   return (
     <>
-      <div className='grid grid-cols-3 grid-rows-3 gap-y-0 sm:gap-y-14 h-screen m-0 py-5 w-[100vw] bg-rojo'>
+      <div className='grid grid-cols-3 grid-rows-3 gap-y-0 sm:gap-y-14 h-screen sm:items-center m-0 py-5 w-[100vw] bg-rojo'>
 
         <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 hidden sm:flex justify-center items-end h-full'>
           <div className='w-[400px] h-fit border-2 overflow-hidden'>
@@ -74,9 +74,8 @@ const About3 = () => {
           </div>
         </div>
 
-        <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 flex flex-col gap-6 px-2 sm:px-0 sm:pt-14 h-full sm:h-fit text-blanco font-playFair'>
-          <p className='text-xl sm:text-2xl'>{AboutText.third.main}</p>
-          <p className='text-xl sm:text-2xl'>{AboutText.third.sub}</p>
+        <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 flex px-2 h-full sm:h-fit items-end text-blanco font-playFair'>
+          <p className='text-2xl sm:text-3xl text-center'>{AboutText.third.main}</p>
         </div>
 
         <div className='flex col-span-3 row-span-2 sm:col-span-1 sm:row-span-3 items-end justify-center'>
@@ -96,8 +95,8 @@ const About2 = () => {
     <>
       <div className='grid grid-cols-3 grid-rows-4 h-screen m-0 py-5 w-[100vw]'>
 
-        <div className='col-span-3 row-span-2 sm:col-span-2 sm:row-span-2 flex h-full sm:h-fit gap-5 text-blanco px-4 font-playFair'>
-          <p className='text-xl sm:text-2xl'>{AboutText.second.main}</p>
+        <div className='col-span-3 row-span-2 sm:col-span-2 sm:row-span-2 flex h-full items-end sm:h-fit gap-5 text-white px-4 font-playFair'>
+          <p className='text-lg sm:text-2xl'>{AboutText.second.main}</p>
           <p className='text-lg sm:text-2xl'>{AboutText.second.sub}</p>
         </div>
 
@@ -124,7 +123,7 @@ const About = () => {
     <>
       <div className='grid grid-cols-3 grid-rows-3 sm:gap-x-4 h-screen py-5 w-[100vw] bg-rojo'>
 
-        <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 pl-2 sm:pl-6 sm:pt-6 flex sm:justify-center sm:items-center text-blanco font-playFair'>
+        <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 pl-4 sm:pl-6 sm:pt-6 flex sm:justify-center sm:items-center text-blanco font-playFair'>
           <ul className='w-full'>
             <li className='text-6xl sm:text-8xl'>About</li>
             <li className='text-6xl sm:text-7xl'>Maria Fernanda </li>
@@ -133,7 +132,7 @@ const About = () => {
         </div>
 
         <div className='col-span-3 row-span-2  flex flex-col gap-16 items-center sm:col-span-1 sm:row-span-3 sm:gap-5'>
-          <p className='text-xl sm:text-3xl text-center text-blanco font-playFair'>{AboutText.firts.main}</p>
+          <p className='text-xl sm:text-3xl text-start sm:text-center text-blanco font-playFair px-4'>{AboutText.firts.main}</p>
           <div className='w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] mx-auto border-2 overflow-hidden'>
             <Image className='hover:scale-105 ease-in-out duration-500' src='/mfmAbout.JPG' alt='Makeup artist Mafer Montealegre pic' width={400} height={400} />
           </div>
