@@ -103,13 +103,13 @@ const About2 = () => {
 
         <div className='hidden sm:flex col-span-1 row-span-4 h-full'>
           <div className='w-[470px] h-[562px] border-2 overflow-hidden'>
-            <Image className='hover:scale-105 ease-in-out duration-500' src='/about2d2.jpg' width={640} height={800} alt='Fashion Week NY 2023 kids makeup' />
+            <Image className='hover:scale-105 ease-in-out duration-500' src='/about2d2.JPG' width={640} height={800} alt='Fashion Week NY 2023 kids makeup' />
           </div>
         </div>
         
         <div className='col-span-3 row-span-2 sm:col-span-2 sm:row-span-2 flex justify-center h-full pt-5 sm:pt-0'>
           <div className='sm:w-[545px] h-fit my-auto border-2 overflow-hidden'>
-            <Image className='hover:scale-105 ease-in-out duration-500' src='/about2d3.jpg' width={640} height={319} alt='Fashion Week NY 2023 model makeup' />
+            <Image className='hover:scale-105 ease-in-out duration-500' src='/about2d3.JPG' width={640} height={319} alt='Fashion Week NY 2023 model makeup' />
           </div>
         </div>
 
