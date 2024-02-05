@@ -45,7 +45,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: '○', value: '+52 9983-687-601'},
-    { label: '○', value: 'info@makeupcancun.com' },
+    { label: '○', value: 'maferviw@me.com' },
   ],
 };
   
@@ -53,7 +53,7 @@ export const SOCIALS = {
   title: 'Socials',
   links: ['/facebook.svg', '/instagram.svg', '/tiktok.svg', 'whatsapp.svg'],
   ref: [
-    'https://www.huffpost.com/entry/the-most-touching-wedding-stories-of-the-year_b_8824302',
+    'https://www.instagram.com/makeupincancun/',
     'https://www.instagram.com/makeupincancun/', 
     'https://www.tiktok.com/@makeupincancunfm', 
     `https://wa.me/${process.env.WHATSAPP}?text=I would like to know more about..`,

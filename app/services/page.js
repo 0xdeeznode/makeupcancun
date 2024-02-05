@@ -1,7 +1,4 @@
 import HeroServices from "@/components/main/HeroServices";
-import ScrollBand from "@/components/sub/extras/ScrollBand";
-
-
 
 
 export default function Home() {
