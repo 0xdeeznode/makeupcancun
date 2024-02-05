@@ -5,7 +5,7 @@ import Link from "next/link"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const ScrollBand = ({ text, refe }) => {
+const ScrollBand = ({ text, refe='' }) => {
 
     gsap.registerPlugin(ScrollTrigger);
     const component = useRef(null);
@@ -32,7 +32,7 @@ const ScrollBand = ({ text, refe }) => {
   return (
     <>
         <div ref={component} className='overflow-hidden w-full'>
-            <div id='band' className="flex items-center justify-center gap-4 my-20">
+            <div id='band' className="flex items-center justify-center gap-4">
                 {Array.from({ length: 14 }, (_, index) => (
                     <React.Fragment key={index}>
                         <Link href={refe} >

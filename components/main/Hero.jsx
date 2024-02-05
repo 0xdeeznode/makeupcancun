@@ -8,7 +8,7 @@ const Hero = () => {
       <HeroLetters />
       <PinPicture />
       <Slogan />
-      <div className="h-[900px] sm:h-[600px]"/>
+      <div className="h-[900px] sm:h-[500px]"/>
     </section>
   )
 }

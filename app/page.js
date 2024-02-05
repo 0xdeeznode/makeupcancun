@@ -14,7 +14,6 @@ export default function Home() {
         <Horizontal />
         <Team />
         <ScrollBand text='Our Services' refe='/services'/>
-        <div className="h-[30vh]"/>
       </div>
     </main>
   );
