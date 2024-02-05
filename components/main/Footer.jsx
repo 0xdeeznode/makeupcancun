@@ -5,10 +5,10 @@ import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 const Footer = () => {
   return (
     <>
-      <footer className='px-8'>
+      <footer className='px-2 sm:px-8'>
         <div className="flex flex-col w-full gap-5 py-10">
           {/* INFO CONTAINER */}
-          <div className='flex w-full gap-20 '>
+          <div className='grid grid-cols-2 gap-y-6 sm:flex w-full gap-20 '>
             <Link href='/' className=''>
               <Image 
                 src="/MClogo500.svg"
