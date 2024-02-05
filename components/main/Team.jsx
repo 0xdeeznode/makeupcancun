@@ -3,7 +3,7 @@ import TeamTitle from "../sub/team/TeamTitle"
 
 const Team = () => {
   return (
-    <section className='bg-blanco px-10'>
+    <section className='bg-blanco px-2 sm:px-10'>
       <TeamTitle />
       <TeamMain />
     </section>
