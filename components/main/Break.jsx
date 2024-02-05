@@ -31,7 +31,7 @@ const Break = () => {
 
   return (
     <section ref={component} className='w-full flex flex-col items-center my-36 font-playFair text-rojo z-20'>
-        <div id='item-1' className='w-[130px] sm:w-[260px]'>
+        <div id='item-1' className='w-[130px] lg:w-[260px]'>
             <Image 
             src='/MClogo500.svg'
             width={260}
@@ -39,9 +39,9 @@ const Break = () => {
             alt='Makeup In Cancun Logo'
             />
         </div>
-        <div id='item-2' className='flex justify-center items-center text-6xl sm:text-9xl gap-5'>
+        <div id='item-2' className='flex justify-center items-center text-6xl lg:text-9xl gap-5'>
             <p>THE</p>
-            <div className='w-[130px] sm:w-full h-full sm:pt-2'>
+            <div className='w-[130px] lg:w-full h-full lg:pt-2'>
                 <Image
                 src='/ojos.webp'
                 width={225}
@@ -50,7 +50,7 @@ const Break = () => {
                 />
             </div>
         </div>
-        <div id='item-3' className='text-6xl sm:text-9xl'>
+        <div id='item-3' className='text-6xl lg:text-9xl'>
             <p>APPLAUSE</p>
         </div>
     </section>        

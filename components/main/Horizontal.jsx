@@ -1,4 +1,3 @@
-import Portada from '../sub/horizontal/Portada'
 import HScroller from '../sub/horizontal/HScroller'
 
 const Horizontal = () => {

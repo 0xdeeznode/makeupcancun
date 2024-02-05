@@ -32,7 +32,7 @@ const HeroLetters = () => {
   return (
     <div ref={component} className='flex mt-16 sm:mt-2'>
       <div id='text-wrap' className="flex justify-center w-full">
-        <h1 className=" text-rojo sm:leading-normal font-playFair text-[43px] sm:text-[140px]">MAKEUP IN CANCUN</h1>
+        <h1 className=" text-rojo md:mt-7 lg:mt-0 lg:leading-normal font-playFair text-[43px] md:text-[60px] lg:text-[140px]">MAKEUP IN CANCUN</h1>
       </div>
     </div>
   )

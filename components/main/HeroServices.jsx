@@ -36,7 +36,7 @@ const HeroServices = () => {
     <section ref={component} className="relative pt-40 w-full my-32 overflow-hidden">
         <div className="flex flex-col justify-center items-center">
             <div id="logo" className="absolute top-[5%] z-10">
-                <h1 className="text-rojo leading-none sm:leading-normal sm:text-nowrap font-playFair text-5xl sm:text-8xl">MAKEUP IN CANCUN | Services</h1>
+                <h1 className="text-rojo leading-none sm:leading-normal sm:text-nowrap font-playFair text-5xl lg:text-8xl">MAKEUP IN CANCUN | Services</h1>
             </div>
             <div id="foto" className="relative z-30">
                 <Image 
