@@ -70,7 +70,7 @@ const About3 = () => {
 
         <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 hidden sm:flex justify-center items-end h-full'>
           <div className='w-[400px] h-fit border-2 overflow-hidden'>
-            <Image className='hover:scale-105 ease-in-out duration-500' src='/bride2.png' width={400} height={500} alt='Wedding on the beach Mexico' />
+            <Image className='hover:scale-105 ease-in-out duration-500' src='/bride2.PNG' width={400} height={500} alt='Wedding on the beach Mexico' />
           </div>
         </div>
 
@@ -81,7 +81,7 @@ const About3 = () => {
 
         <div className='flex col-span-3 row-span-2 sm:col-span-1 sm:row-span-3 items-end justify-center'>
           <div className='w-[320px] h-[400px] sm:w-[400px] sm:h-[500px] border-2 overflow-hidden'>
-            <Image className='hover:scale-105 ease-in-out duration-500' src='/bride.jpg' width={400} height={500} alt='Bridal Makeup Mexico'/>
+            <Image className='hover:scale-105 ease-in-out duration-500' src='/bride.JPG' width={400} height={500} alt='Bridal Makeup Mexico'/>
           </div>
         </div>
 
@@ -135,13 +135,13 @@ const About = () => {
         <div className='col-span-3 row-span-2  flex flex-col gap-16 items-center sm:col-span-1 sm:row-span-3 sm:gap-5'>
           <p className='text-xl sm:text-3xl text-center text-blanco font-playFair'>{AboutText.firts.main}</p>
           <div className='w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] mx-auto border-2 overflow-hidden'>
-            <Image className='hover:scale-105 ease-in-out duration-500' src='/mfmAbout.jpg' alt='Makeup artist Mafer Montealegre picture two' width={400} height={400} />
+            <Image className='hover:scale-105 ease-in-out duration-500' src='/mfmAbout.JPG' alt='Makeup artist Mafer Montealegre pic' width={400} height={400} />
           </div>
         </div>
 
         <div className='hidden sm:flex col-span-1 row-span-3'>
           <div className='w-[430px] h-[573px] border-2 overflow-hidden'>
-            <Image className='hover:scale-105 ease-in-out duration-500' src='/mfmAbout2.png' alt='Makeup artist Mafer Montealegre picture' width={640} height={853} />
+            <Image className='hover:scale-105 ease-in-out duration-500' src='/mfmAbout2.png' alt='Makeup artist Mafer Montealegre pic2' width={640} height={853} />
           </div>
         </div>
       </div>

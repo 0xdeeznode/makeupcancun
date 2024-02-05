@@ -40,7 +40,7 @@ const HeroServices = () => {
             </div>
             <div id="foto" className="relative z-30">
                 <Image 
-                src='/bridals.jpg'
+                src='/bridals.JPG'
                 width={850}
                 height={566}
                 alt="bridals makeup in cancun"
