@@ -2,6 +2,7 @@ import Break from "@/components/main/Break";
 import Hero from "@/components/main/Hero";
 import Horizontal from "@/components/main/Horizontal";
 import Team from "@/components/main/Team";
+import ScrollBand from "@/components/sub/extras/ScrollBand";
 
 export default function Home() {
 
@@ -12,6 +13,8 @@ export default function Home() {
         <Break />
         <Horizontal />
         <Team />
+        <ScrollBand text='Our Services' refe='/services'/>
+        <div className="h-[30vh]"/>
       </div>
     </main>
   );

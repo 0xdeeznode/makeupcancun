@@ -1,3 +1,4 @@
+import ScrollBand from "../sub/extras/ScrollBand"
 import TeamMain from "../sub/team/TeamMain"
 import TeamTitle from "../sub/team/TeamTitle"
 
