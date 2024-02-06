@@ -5,7 +5,7 @@ import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from '@/constants'
 const Footer = () => {
   return (
     <>
-      <footer className='px-2 sm:px-8'>
+      <footer id='#contact' className='px-2 sm:px-8'>
         <div className="flex flex-col w-full gap-5 py-10">
           {/* INFO CONTAINER */}
           <div className='grid grid-cols-2 gap-12 sm:flex w-full sm:gap-20 '>
