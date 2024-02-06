@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex flex-col gap-5 overflow-hidden">
           <HeroServices />
           <Weddings />
-          <ScrollBand text='Inquire about our bridal and bridesmaid/guest packages.' refe={`https://wa.me/${process.env.WHATSAPP}?text=I would like to know more about bridesmaid/guest packages.`}/>
+          <ScrollBand text='Inquire about our bridal and bridesmaid/guest packages' refe={`https://wa.me/${process.env.WHATSAPP}?text=I would like to know more about bridesmaid/guest packages.`}/>
           <OtherServices />
         </div>
       </main>

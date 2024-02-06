@@ -34,7 +34,7 @@ const Weddings = () => {
 
             <div className="h-fit w-fit border-4 border-rojo object-contain overflow-hidden">
                 <Image className="w-[500px] object-cover transition-transform hover:scale-110 ease-in-out duration-500" 
-                src='/servicesBrides2.jpg'
+                src='/servicesBrides2.JPG'
                 alt='Wedding at the beach makeup cancun'
                 width={828}
                 height={551}
@@ -48,7 +48,7 @@ const Weddings = () => {
 
             <div className="h-fit w-fit border-4 border-rojo object-contain overflow-hidden">
                 <Image className="w-[490px] object-cover transition-transform hover:scale-110 ease-in-out duration-500" 
-                src='/servicesBrides3.png'
+                src='/servicesBrides3.PNG'
                 alt='Wedding at the beach makeup cancun'
                 width={800}
                 height={518}
