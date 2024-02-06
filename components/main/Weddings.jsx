@@ -48,7 +48,7 @@ const Weddings = () => {
 
             <div className="h-fit w-fit border-4 border-rojo object-contain overflow-hidden">
                 <Image className="w-[490px] object-cover transition-transform hover:scale-110 ease-in-out duration-500" 
-                src='/servicesBrides3.PNG'
+                src='/aero.jpg'
                 alt='Wedding at the beach makeup cancun'
                 width={800}
                 height={518}

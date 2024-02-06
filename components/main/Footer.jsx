@@ -11,10 +11,10 @@ const Footer = () => {
           <div className='grid grid-cols-2 gap-12 sm:flex w-full sm:gap-20 '>
             <Link href='/' className=''>
               <Image 
-                src="/MClogo500.svg"
+                src="/MClogo.png"
                 alt='Makeup in Cancun logo'
-                width={110}
-                height={110}
+                width={140}
+                height={140}
               />
             </Link>
             {/* INFOContainer-Community */}

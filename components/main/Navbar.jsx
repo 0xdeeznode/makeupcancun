@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`fixed items-center w-full bg-transparent top-0 z-50 ${!DesNavBar && 'hidden'}`}>
+      <nav className={`fixed items-center h-fit w-full bg-blanco/95 top-0 z-50 ${!DesNavBar && 'hidden'}`}>
         {/* Desktop Nav */}
         <div className="w-full flex items-center justify-between py-4 px-4">
           <Link className="hidden sm:flex" href='/'>
@@ -51,16 +51,16 @@ const Navbar = () => {
           </Link>
           <Link href='/'>
             <div>
-                <Image
-                src='/MClogoSimple500.svg'
-                width={55}
-                height={18}
-                alt="Fernanda Makeup logo"
-                />
+              <Image
+              src='/MClogoS.png'
+              width={50}
+              height={50}
+              alt="Fernanda Makeup logo"
+              />
             </div>
           </Link>
           <Link className='hidden sm:flex' href='/services'>
-              <div className="text-rojo font-bold">SERVICES +</div>
+            <div className="text-rojo font-bold">SERVICES +</div>
           </Link>
           <div onClick={handleNav} className="sm:hidden text-rojo cursor-pointer z-20">
             {navBar ? 

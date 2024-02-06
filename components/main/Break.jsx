@@ -33,9 +33,9 @@ const Break = () => {
     <section ref={component} className='w-full flex flex-col items-center my-36 font-playFair text-rojo z-20'>
         <div id='item-1' className='w-[130px] lg:w-[260px]'>
             <Image 
-            src='/MClogo500.svg'
-            width={260}
-            height={260}
+            src='/MClogo.png'
+            width={270}
+            height={270}
             alt='Makeup In Cancun Logo'
             />
         </div>

@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </Head>
-      <body className={`${inter.className} ${titleFont.variable} bg-blanco`}>
+      <body className={`${inter.className} ${titleFont.variable} bg-white`}>
         <Navbar />
         {children}
         <Footer />
