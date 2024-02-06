@@ -31,13 +31,13 @@ const ScrollBand = ({ text, refe='' }) => {
 
   return (
     <>
-        <div ref={component} className='overflow-hidden w-full'>
-            <div id='band' className="flex items-center justify-center gap-4">
+        <div ref={component} className='overflow-hidden w-full my-8'>
+            <div id='band' className="flex w-full items-center justify-center gap-4">
                 {Array.from({ length: 14 }, (_, index) => (
                     <React.Fragment key={index}>
                         <Link href={refe} >
-                            <span className="text-rojo text-sm sm:text-lg text-nowrap uppercase font-playFair">
-                                {text}
+                            <span className="text-rojo text-xs md:text-sm lg:text-lg text-nowrap uppercase font-playFair">
+                                <p>{text}</p>
                             </span>
                         </Link>
                         <span>
