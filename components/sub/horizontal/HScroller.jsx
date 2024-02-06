@@ -75,7 +75,7 @@ const About3 = () => {
         </div>
 
         <div className='col-span-3 row-span-1 sm:col-span-1 sm:row-span-3 flex px-2 h-full sm:h-fit items-end text-blanco font-playFair'>
-          <p className='text-2xl lg:text-3xl text-center'>{AboutText.third.main}</p>
+          <p className='text-xl lg:text-2xl text-center'>{AboutText.third.main}</p>
         </div>
 
         <div className='flex col-span-3 row-span-2 sm:col-span-1 sm:row-span-3 items-end justify-center'>
@@ -123,16 +123,16 @@ const About = () => {
     <>
       <div className='grid grid-cols-3 grid-rows-3 lg:gap-x-4 h-screen py-5 w-[100vw] bg-rojo'>
 
-        <div className='col-span-3 row-span-1 lg:col-span-1 lg:row-span-3 pl-4 lg:pl-6 lg:pt-6 flex lg:justify-center lg:items-center text-blanco font-playFair'>
+        <div className='col-span-3 row-span-1 lg:col-span-1 lg:row-span-3 pl-4 lg:pl-6 lg:pt-6 flex lg:justify-center text-blanco font-playFair items-center'>
           <ul className='w-full'>
-            <li className='text-6xl md:text-4xl lg:text-8xl'>About</li>
-            <li className='text-6xl md:text-4xl lg:text-7xl'>Maria Fernanda </li>
-            <li className='text-6xl md:text-4xl lg:text-7xl'>Montealegre</li>
+            <li className='text-5xl md:text-4xl lg:text-7xl'>About</li>
+            <li className='text-5xl md:text-4xl lg:text-7xl'>Maria Fernanda </li>
+            <li className='text-5xl md:text-4xl lg:text-7xl'>Montealegre</li>
           </ul>
         </div>
 
         <div className='col-span-3 row-span-2  flex flex-col gap-16 items-center lg:col-span-1 lg:row-span-3 md:gap-1 lg:gap-5'>
-          <p className='text-xl lg:text-3xl text-start lg:text-center text-blanco font-playFair px-4'>{AboutText.firts.main}</p>
+          <p className='text-xl lg:text-2xl text-start lg:text-center text-blanco font-playFair px-4'>{AboutText.firts.main}</p>
           <div className='w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] mx-auto border-2 overflow-hidden'>
             <Image className='hover:scale-105 ease-in-out duration-500' src='/mfmAbout.JPG' alt='Makeup artist Mafer Montealegre pic' width={400} height={400} />
           </div>

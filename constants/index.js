@@ -21,28 +21,28 @@ export const AboutText = {
 // TEAM SECTION
 export const AboutTeam = {
   first: {
-    main: 'IT ALL BEGINS WITH COLLABORATIVE EXCELLENCE.',
+    main: 'COLLABORATIVE EXCELLENCE.',
     sub: "The Makeup in Cancun team is composed of professionals in hairstyling and makeup who work closely with Fernanda to provide a high-quality service.",
   },
   second: {
-    main: 'ARTISTIC PRECISION AND COMMITMENT TO EXCELLENCE',
-    sub: 'We meticulously match event lighting, texture, and skin tone, preparing each element for the next step in our artistic process. We are committed to providing punctuality and impeccable presentation in every service.',
+    main: 'PRECISION AND COMMITMENT',
+    sub: 'We meticulously match event lighting, texture, and skin tone, preparing each element for the next step in our artistic process.',
   },
 }
 
 // WEDDINGS SECTION
 export const WeddingsInfo = {
   first: {
-    main: 'Specializing in Humid and Warm Climates at Riviera Maya',
-    sub: "Our top priority in Riviera Maya is brides. We specialize in addressing the needs of brides getting married in humid and warm climates, providing our expertise in selecting products and makeup for the durability of both makeup and hairstyling",
+    main: 'Specializing in Humid and Warm Climates',
+    sub: "Our top priority in Riviera Maya is brides. We specialize in addressing the needs of brides getting married in humid and warm climates.",
   },
   second: {
-    main: 'Elevate Your Bridal Glow: Our Airbrush Magic for Long-lasting, Customizable Makeup',
-    sub: 'Offering our star product in makeup, such as the airbrush, which provides maximum durability and is a buildable makeup for brides who want a natural or full coverage look.',
+    main: 'Our Airbrush Magic',
+    sub: 'Offering our star product in makeup, the airbrush, which provides maximum durability and is a buildable makeup for brides who want a natural or full coverage look.',
   },
   third: {
-    main: 'Certified TEMTU',
-    sub: 'María Fernanda M is certified by TEMTU, a leading brand in airbrush makeup, offering expert services in certified TEMTU airbrush makeup application.',
+    main: 'Certified',
+    sub: 'We are certified by TEMTU, a leading brand in airbrush makeup, offering expert services in airbrush makeup application.',
   },
 }
 
