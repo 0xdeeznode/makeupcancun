@@ -30,6 +30,23 @@ export const AboutTeam = {
   },
 }
 
+// WEDDINGS SECTION
+export const WeddingsInfo = {
+  first: {
+    main: 'Specializing in Humid and Warm Climates at Riviera Maya',
+    sub: "Our top priority in Riviera Maya is brides. We specialize in addressing the needs of brides getting married in humid and warm climates, providing our expertise in selecting products and makeup for the durability of both makeup and hairstyling",
+  },
+  second: {
+    main: 'Elevate Your Bridal Glow: Our Airbrush Magic for Long-lasting, Customizable Makeup',
+    sub: 'Offering our star product in makeup, such as the airbrush, which provides maximum durability and is a buildable makeup for brides who want a natural or full coverage look.',
+  },
+  third: {
+    main: 'Certified TEMTU',
+    sub: 'María Fernanda M is certified by TEMTU, a leading brand in airbrush makeup, offering expert services in certified TEMTU airbrush makeup application.',
+  },
+}
+
+
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
@@ -50,9 +67,8 @@ export const FOOTER_CONTACT_INFO = {
   
 export const SOCIALS = {
   title: 'Socials',
-  links: ['/facebook.svg', '/instagram.svg', '/tiktok.svg', 'whatsapp.svg'],
+  links: ['/instagram.svg', '/tiktok.svg', 'whatsapp.svg'],
   ref: [
-    'https://www.instagram.com/makeupincancun/',
     'https://www.instagram.com/makeupincancun/', 
     'https://www.tiktok.com/@makeupincancunfm', 
     `https://wa.me/${process.env.WHATSAPP}?text=I would like to know more about..`,
