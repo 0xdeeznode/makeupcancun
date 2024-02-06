@@ -20,7 +20,7 @@ const TeamMain = () => {
         </div>
 
         {/* Col2 */}
-        <div className="flex flex-col gap-32 sm:gap-20 col-span-1">
+        <div className="flex flex-col gap-32 sm:gap-16 col-span-1">
 
           <div className="h-fit sm:h-[570px] w-fit border-4 border-rojo object-contain overflow-hidden">
             <video className="w-[450px] object-cover transition-transform hover:scale-110 ease-in-out duration-500" playsInline autoPlay muted loop>

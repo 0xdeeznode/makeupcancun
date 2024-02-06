@@ -21,12 +21,12 @@ export const AboutText = {
 // TEAM SECTION
 export const AboutTeam = {
   first: {
-    main: 'IT ALL BEGINS WITH TALENT, THE FINEST MAKEUP ARTISTS',
-    sub: "At Makeup in Cancun, our commitment to excellence is unwavering. We purchase our products head-by-head, ensuring precision in sourcing. This way, we know exactly who and where each element of beauty comes from.",
+    main: 'IT ALL BEGINS WITH COLLABORATIVE EXCELLENCE.',
+    sub: "The Makeup in Cancun team is composed of professionals in hairstyling and makeup who work closely with Fernanda to provide a high-quality service.",
   },
   second: {
-    main: 'CRAFTING BEAUTY, BASED ON EACH UNIQUE CANVAS',
-    sub: 'We meticulously match event lighting, texture, and skin tone, preparing each element for the next step in our artistic process. On average, five heads contribute to creating the one that will adorn yours so beautifully',
+    main: 'ARTISTIC PRECISION AND COMMITMENT TO EXCELLENCE',
+    sub: 'We meticulously match event lighting, texture, and skin tone, preparing each element for the next step in our artistic process. We are committed to providing punctuality and impeccable presentation in every service.',
   },
 }
 
