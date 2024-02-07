@@ -6,7 +6,7 @@ const TeamMain = () => {
       <div className="grid grid-cols-2 gap-3 sm:gap-14 h-full w-full">
         {/* Col1 */}
         <div className="flex flex-col gap-20 col-span-1">
-          <div className="flex flex-col gap-4 text-rojo font-playFair">
+          <div className="flex flex-col gap-4 text-black font-playFair">
             <h4 className="text-2xl sm:text-4xl">{AboutTeam.first.main}</h4>
             <p>{AboutTeam.first.sub}</p>
           </div>
@@ -28,7 +28,7 @@ const TeamMain = () => {
             </video>        
           </div>
 
-          <div className="flex flex-col gap-4 text-rojo font-playFair">
+          <div className="flex flex-col gap-4 text-black font-playFair">
             <h4 className="text-2xl sm:text-4xl">{AboutTeam.second.main}</h4>
             <p>{AboutTeam.second.sub}</p>
           </div>

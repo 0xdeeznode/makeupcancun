@@ -30,7 +30,7 @@ const Break = () => {
 
 
   return (
-    <section ref={component} className='w-full flex flex-col items-center my-36 font-playFair text-rojo z-20'>
+    <section ref={component} className='w-full flex flex-col items-center my-36 font-playFair text-black z-20'>
         <div id='item-1' className='w-[130px] lg:w-[260px]'>
             <Image 
             src='/MClogo.png'
