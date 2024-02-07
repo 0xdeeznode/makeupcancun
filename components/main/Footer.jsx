@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
           {/* Copyrights */}
           <div className="w-full border-t-2 bg-gray-20 pt-8">
-            <p className='text-center text-rojo'>2024 &copy; Makeup In Cancun | All rights reserved</p>
+            <p className='text-center text-black'>2024 &copy; Makeup In Cancun | All rights reserved</p>
           </div>
         </div>
       </footer>
