@@ -13,8 +13,14 @@
 }
 
 .PortadaBG {
-  background-image: url('../public/Herobg.jpg');
+  background-image: url('../public/BGMC-hand2.jpg');
 }
+
+.PortadaBG2 {
+  background-image: url('../public/BGMC-brushes.jpg');
+  background-position: 0% 10%;
+}
+
 
 .scrollbar-hidden {
   -ms-overflow-style: none; /* IE and Edge */

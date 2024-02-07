@@ -1,12 +1,30 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Portada = () => {
   return (
-    <div className="relative flex flex-col gap-4 justify-start items-center bg-cover bg-center h-screen PortadaBG pt-24 lg:pt-36 border-2 border-gray-400 z-0">
-        <div className="absolute inset-0 bg-black opacity-40" />
-        <h1 className='text-8xl lg:text-9xl font-playFair text-center font-bold strokeT z-10'>Makeup in Cancun</h1>
-        <h2 className='text-2xl lg:text-2xl font-playFair font-bold strokeT z-10'>By Maria Fernanda Montealegre</h2>
-    </div>
+    <>
+      <div className="relative hidden sm:flex flex-col gap-4 justify-start items-center bg-cover h-screen PortadaBG lg:pt-36 border-2 border-gray-400 z-0">
+        <div className='absolute w-[250px] md:w-[300px] lg:w-[500px] right-[1%] bottom-[0%] z-10'>
+          <Image
+            src='/MClogo.png'
+            width={500}
+            height={500}
+            alt='Makeup In Cancun Logo'
+           />
+        </div>
+      </div>
+      <div className="relative flex sm:hidden flex-col gap-4 justify-start items-center bg-cover h-screen PortadaBG2 lg:pt-36 border-2 border-gray-400 z-0">
+        <div className='absolute w-[450px] right-5 left-0 top-[10%] z-10'>
+          <Image
+            src='/MClogo.png'
+            width={500}
+            height={500}
+            alt='Makeup In Cancun Logo'
+           />
+        </div>
+      </div>
+    </>
   )
 }
 
