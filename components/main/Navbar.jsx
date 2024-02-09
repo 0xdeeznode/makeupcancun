@@ -47,7 +47,7 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <div className="w-full flex items-center justify-between py-4 px-4">
           <Link className="hidden sm:flex" href='/'>
-              <div className="text-rojo font-bold">HOME</div>
+            <div className="text-rojo font-bold">HOME</div>
           </Link>
           <Link href='/'>
             <div>
@@ -59,9 +59,14 @@ const Navbar = () => {
               />
             </div>
           </Link>
-          <Link className='hidden sm:flex' href='/services'>
-            <div className="text-rojo font-bold">SERVICES +</div>
-          </Link>
+          <div className="flex gap-8">
+            <Link className='hidden sm:flex' href='/services'>
+              <div className="text-rojo font-bold">SERVICES +</div>
+            </Link>
+            <Link className='hidden sm:flex' href='/faq'>
+              <div className="text-rojo font-bold">FAQ +</div>
+            </Link>
+          </div>
           <div onClick={handleNav} className="sm:hidden text-rojo cursor-pointer z-20">
             {navBar ? 
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
@@ -84,7 +89,7 @@ const Navbar = () => {
               <Link href='/services' onClick={handleNav}>Services +</Link>
             </li>
             <li className='p-3 text-3xl text-white hover:font-bold ease-in duration-300'>
-              <Link href='#contact' onClick={handleNav}>Contact</Link>
+              <Link href='/faq' onClick={handleNav}>FAQ +</Link>
             </li>
           </ul>
         </div>

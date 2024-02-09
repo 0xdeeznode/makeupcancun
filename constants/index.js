@@ -46,6 +46,18 @@ export const WeddingsInfo = {
   },
 }
 
+// FAQ
+export const FaqInfo = [
+  {
+    question: 'Does your hotel charge Vendor Fees?',
+    answer: 'If your hotel charges a fee, we have spaces available for rent by the hour at a low cost, near Riviera Maya and close to Costa Mujeres.'
+  },
+  {
+    question: 'Service Cancellation',
+    answer: 'For cancellations beyond our control, there will be no refund of the deposit, and on the day of the event, full payment for the contracted services must be made.'
+  },
+]
+
 
 
 // FOOTER SECTION

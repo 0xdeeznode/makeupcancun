@@ -31,7 +31,7 @@ const Slogan = () => {
 
   return (
     <>
-        <div ref={component} className="flex w-full mt-24 z-30">
+        <div ref={component} className="flex w-full mt-5 z-30">
             <div id="columns" className="flex flex-col sm:flex-row relative items-center justify-between w-full overflow-hidden">
               <div id="col1" className="w-[225px] h-[337.5px] lg:w-[450px] lg:h-[675px] overflow-hidden">
                 <Image
